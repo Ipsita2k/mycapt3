@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+     printf("enter the required number:");
+     int ch;
+     printf("enter the number from 0-3\n");
+     scanf("%d",&ch);
+     switch(ch)
+     {
+         case 1:
+         printf("pleasure meating you ");
+         case 2:
+         printf("good to see you");
+         case 3:
+         printf(" nice to meet you ");
+         default:
+         printf("have a nice day ");
+     }
+     
+    return 0;
+    }
